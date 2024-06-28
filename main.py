@@ -1,10 +1,12 @@
 def main():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
-    total = 0
+
+    total = 0 
+
+    for i in range(6):
+        number = int(input('Enter an integer value: '))
+        total += number
+
+    print(total)
 
     ########################################
     # Do not delete the return statement
