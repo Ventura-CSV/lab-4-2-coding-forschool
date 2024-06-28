@@ -2,7 +2,7 @@ def main():
 
     total = 0 
 
-    for i in range(6):
+    for i in range(5):
         number = int(input('Enter an integer value: '))
         total += number
 
